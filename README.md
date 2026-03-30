@@ -1,23 +1,23 @@
-# 🚀 VPN-Крепость: Ультра-быстрое развертывание 3x-ui (VLESS + Trojan)
+# 🚀 VPN Fortress: Ultra-Fast 3x-ui Deployment (VLESS + Trojan)
 
-Этот скрипт предназначен для полностью автоматической (Zero-Touch) установки панели **3x-ui** на чистый сервер Ubuntu. На выходе вы получаете готовую, бронированную архитектуру для обхода блокировок, без необходимости настраивать туннели и сертификаты вручную.
+This script is designed for a fully automated (Zero-Touch) installation of the **3x-ui** panel on a clean Ubuntu server. The result is a ready-to-use, bulletproof architecture for bypassing censorship, completely eliminating the need to manually configure tunnels and certificates.
 
-## ✨ Главные фишки (Ultimate Edition)
-* **Готовая маршрутизация:** Основной протокол **VLESS** (на 443 порту) с правилом Fallback на скрытый **Trojan** (WebSocket, 8022 порт) для максимальной скорости и резервирования.
-* **Прямая инъекция SSL:** Сертификаты Let's Encrypt автоматически вшиваются в ядро панели SQLite.
-* **Маскировка (Nginx):** Автоматическое скачивание случайного сайта-заглушки с GitHub.
-* **Защита от сканеров:** Агрессивная блокировка ботов по IP-адресу (Nginx возвращает код `444`).
-* **Надежность:** Автоматическое резервное копирование базы данных панели каждую ночь в `/var/backups/`.
-* **Поддержка звонков:** UDP-трафик (QUIC) корректно маршрутизируется для работы аудио и видеозвонков.
+## ✨ Key Features (Ultimate Edition)
+* **Smart Routing:** Primary **VLESS** protocol (on port 443) with a Fallback rule to a hidden **Trojan** (WebSocket, port 8022) for maximum speed and redundancy.
+* **Direct SSL Injection:** Let's Encrypt certificates are automatically injected into the panel's SQLite core, preventing the `ERR_SSL_PROTOCOL_ERROR` on the first launch.
+* **Camouflage (Nginx):** Automatically downloads a random, professional-looking fake website template from GitHub to mask your node.
+* **Scanner Protection:** Aggressive bot and scanner blocking (Nginx returns a `444` response code for unknown requests).
+* **Reliability:** Automated daily backups of the panel's database to `/var/backups/`.
+* **VoIP Call Support:** UDP traffic (QUIC) is properly routed to ensure flawless audio and video calls (WhatsApp, Telegram, etc.).
 
-## ⚙️ Требования перед установкой
-1. Абсолютно чистый сервер на **Ubuntu** (20.04, 22.04 или 24.04).
-2. Зарегистрированный домен, привязанный к IP-адресу вашего нового сервера (A-запись).
-3. Открытые порты 80 и 443 во внешнем файрволе вашего облачного провайдера.
+## ⚙️ Prerequisites
+1. A completely clean **Ubuntu** server (20.04, 22.04, or 24.04).
+2. A registered domain pointing to the IP address of your new server (A-record).
+3. Open ports **80** and **443** in your cloud provider's external firewall (Security Groups).
 
-## ⚡ Быстрый старт (Установка в 1 клик)
+## ⚡ Quick Start (1-Click Install)
 
-Подключитесь к вашему серверу по SSH под пользователем `root` и выполните эту команду:
+Connect to your server via SSH as the `root` user and run the following command:
 
 ```bash
-wget -qO install.sh "https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh" && bash install.sh
+wget -qO install.sh "[https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh](https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh)" && bash install.sh
