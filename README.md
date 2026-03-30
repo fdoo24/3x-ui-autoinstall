@@ -20,4 +20,4 @@
 Подключитесь к вашему серверу по SSH под пользователем `root` и выполните эту команду:
 
 ```bash
-wget -qO install.sh "[https://gist.githubusercontent.com/fdoo24/8bcb2883ad41bc73f1c31a40290792dd/raw/fc907cbf8b8e8f3c65beb4a79240b8fe8d3f0a19/install.sh](https://gist.githubusercontent.com/fdoo24/8bcb2883ad41bc73f1c31a40290792dd/raw/fc907cbf8b8e8f3c65beb4a79240b8fe8d3f0a19/install.sh)" && bash install.sh
+wget -qO install.sh "https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh" && bash install.sh
