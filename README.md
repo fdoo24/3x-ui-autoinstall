@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20|%2022.04%20|%2024.04-orange)](https://ubuntu.com)
-[![Version](https://img.shields.io/badge/Version-6.3_Ultimate-green)](https://github.com/fdoo24/3x-ui-autoinstall/releases)
+[![Version](https://img.shields.io/badge/Version-7.0_Ultimate-green)](https://github.com/fdoo24/3x-ui-autoinstall/releases)
 [![Stars](https://img.shields.io/github/stars/fdoo24/3x-ui-autoinstall?style=social)](https://github.com/fdoo24/3x-ui-autoinstall)
 
 <p align="center">
