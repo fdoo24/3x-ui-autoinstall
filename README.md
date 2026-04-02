@@ -19,5 +19,7 @@ This script is designed for a fully automated (Zero-Touch) installation of the *
 
 Connect to your server via SSH as the `root` user and run the following command:
 
+## Установка
+
 ```bash
-wget -qO install.sh "[https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh](https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh)" && bash install.sh
+wget -qO install.sh https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh && bash install.sh
