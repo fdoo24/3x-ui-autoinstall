@@ -1,6 +1,6 @@
 # 🚀 VPN Fortress
 
-> **Zero‑Touch Deployment for 3x‑ui** • VLESS + Trojan + TLS + Nginx 444
+> **Zero‑Touch Deployment for 3x‑ui** • VLESS + Trojan + TLS + Nginx 444 + Fail2ban 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20|%2022.04%20|%2024.04-orange)](https://ubuntu.com)
@@ -40,6 +40,14 @@ This script is designed for a fully automated (Zero-Touch) installation of the *
 1. A completely clean **Ubuntu** server (20.04, 22.04, or 24.04).
 2. A registered domain pointing to the IP address of your new server (A-record).
 3. Open ports **80** and **443** in your cloud provider's external firewall (Security Groups).
+
+---
+
+## 🛡 What You Get After Installation
+At the end of the process, the script will output the following directly to your console:
+1. A secure HTTPS link to access your 3x-ui web panel, along with the generated login and password.
+2. A ready-to-use vless:// link for your primary high-speed connection.
+3. A ready-to-use trojan:// link for your hidden fallback tunnel.
 
 ---
 
