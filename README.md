@@ -60,3 +60,9 @@ curl -fsSL https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads
 
 ```bash
 wget -qO install.sh https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh && bash install.sh
+```
+Установка ноды для MySuperVPN 2:
+```bash
+curl -fsSL https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/setup_node.sh | bash
+```
+
