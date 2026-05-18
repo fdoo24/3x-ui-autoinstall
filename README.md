@@ -54,6 +54,9 @@ At the end of the process, the script will output the following directly to your
 ## ⚡ Quick Start (1-Click Install)
 
 Connect to your server via SSH as the `root` user and run the following command:
+```bash
+curl -fsSL https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh | bash
+```
 
 ```bash
 wget -qO install.sh https://raw.githubusercontent.com/fdoo24/3x-ui-autoinstall/refs/heads/main/install.sh && bash install.sh
